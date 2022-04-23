@@ -55,7 +55,6 @@ main .main-pash img {
     height: 400px;
     border-radius: 100px;
 }
-
 main .main-image {
     width: auto;
     height: auto;
@@ -64,22 +63,17 @@ main .main-image {
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    min-width: 100px;
-    min-height: 100px;
 }
 main .main-image img {
-    width: auto;
-    height: 50%;
     object-fit: cover;
     object-position: center center;
-    max-width: 600px;
+    min-height: 100px;
+    width: 60%;
+    height: auto;
     max-height: 800px;
-    margin: 2%;
     padding: none;
-    border-radius: 50px;
     margin-left: 1%;
 }
-
 main .main-presentation {
     font-size: 1.8rem;
     padding: 2rem;
