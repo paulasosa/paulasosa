@@ -48,14 +48,14 @@ main .main-center-title h2 {
     margin-top: 2rem;
     font-size: 3rem;
 }
-main .main-image img {
+main .main-pash img {
     margin-top: 2rem;
     padding-top: 2rem;
     width: 300px ;
     height: 400px;
     border-radius: 100px;
 }
-/*
+
 main .main-image {
     width: auto;
     height: auto;
@@ -79,8 +79,6 @@ main .main-image img {
     border-radius: 50px;
     margin-left: 1%;
 }
-
-*/
 
 main .main-presentation {
     font-size: 1.8rem;
