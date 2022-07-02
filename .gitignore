@@ -1,3 +1,5 @@
 #Ignorando las imágenes en el repositorio de github
 *.jpg
 *.png
+icons
+
