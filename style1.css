@@ -73,16 +73,31 @@ body {
     width: 100%;
     font-size: 1.4rem;
 }
+.main__side img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
 .main__personal {
     width: 100%;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
+}
+
+.main__personal p {
+    text-align: center;
+    font-size: 1.6rem;    
+}
+.main__personal .main__personal-description {
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin: 20px;
 }
 
 /**MAIN CONTACTO**/
 
 .main__personal .main__contact {
     text-align: center;
-    font-size: 1.rem;
+    font-size: 1.6rem;
 }
 
 .main__personal .main__contact .main-center-title h2 {
@@ -122,34 +137,36 @@ body {
     height: auto;
     grid-template-columns: 25% 25% 50%;
 }
-.footer__inicio {
+.footer__portafolio {
     place-self: center;
-    font-size: 1.2rem;
-    cursor: pointer;
 }
 .footer__indice {
     place-self: center;
-    font-size: 1.2rem;
-    cursor: pointer;
 }
 .footer__copy {
     place-self: center;
     margin-top: 10px;
 }
-.footer .footer__inicio li {
+.footer .footer__portafolio li {
     list-style: none;
 }
 .footer .footer__indice li {
     list-style: none;
 }
-.footer .footer__inicio li a {
-    font-size: 1.2rem;
+.footer .footer__portafolio li a {
+    font-size: 1.4rem;
     text-decoration: none;
     cursor: pointer;
     color: rgb(94, 4, 49);
 }
 .footer .footer__indice li a {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
+    text-decoration: none;
+    cursor: pointer;
+    color: rgb(94, 4, 49);
+}
+.footer__copy {
+    font-size: 1.4rem;
     text-decoration: none;
     cursor: pointer;
     color: rgb(94, 4, 49);
