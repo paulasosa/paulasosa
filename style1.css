@@ -78,6 +78,42 @@ body {
     font-size: 1.4rem;
 }
 
+/**MAIN CONTACTO**/
+
+.main__personal .main__contact {
+    text-align: center;
+    font-size: 1.rem;
+}
+
+.main__personal .main__contact .main-center-title h2 {
+    margin: 2rem;
+}
+
+.main__personal .main__contact .main-image {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.main__personal .main__contact .main-image img {
+    object-fit: cover;
+    object-position: center center;
+    min-height: 100px;
+    width: 60%;
+    height: 60%;
+    max-height: 800px;
+    padding: none;
+    margin-left: 1%;
+}
+.main__personal .main__contact .main-presentation {
+    font-size: 1.4rem;
+    justify-content: center;
+}
+
+
 /**FOOTER**/
 .footer {
     background-color: bisque;
