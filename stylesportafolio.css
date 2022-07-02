@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0%;
+}
+html {
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(250, 242, 231);
+}
+main {
+    text-align: center;
+}
+main .main-center-title h1 {
+    margin-top: 3rem;
+    font-size: 4rem;
+}
+main .main-center-title h2 {
+    margin-top: 2rem;
+    font-size: 3rem;
+}
+main .main-pash img {
+    margin-top: 2rem;
+    padding-top: 2rem;
+    width: 300px ;
+    height: 400px;
+    border-radius: 100px;
+}
+main .main-image {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+main .main-image img {
+    object-fit: cover;
+    object-position: center center;
+    min-height: 100px;
+    width: 60%;
+    height: 60%;
+    max-height: 800px;
+    padding: none;
+    margin-left: 1%;
+}
+main .main-presentation {
+    font-size: 1.8rem;
+    padding: 2rem;
+    margin: 2rem;
+    justify-content: center;
+}
