@@ -69,9 +69,7 @@ main .main-image {
 }
 main .main-image img {
     width: auto;
-    height: 50%;
     margin: 2%;
-    padding: none;
     border-radius: 50px;
     margin-left: 1%;
     max-width: 500px;
