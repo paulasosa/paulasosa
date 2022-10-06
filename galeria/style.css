@@ -13,7 +13,7 @@ a {
     color: rgb(12, 11, 12);
     font-size: 1.8rem;
 }
-
+/*HEADER*/
 .nav-center-section {
     display: flex;
     list-style: none;
@@ -27,23 +27,31 @@ nav .nav-center-section a {
     margin-right: 3rem;
 }
 
+/*MAIN*/
+
 main {
+    width: 90%;
+    height: auto;
     text-align: center;
     font-size: 1.8rem;
-    padding: 0.5rem;
-    margin: 2rem;
-    border: 0.5rem;
+    margin: 20px;
+    display: grid;
 }
-main h1 .main-center-title  {
+
+.main-center-title  {
+    text-align: center;
     font-size: 4rem;
     padding: 0.5rem;
     margin: 0.5rem;
 }
-main h2 .main-center-title {
+
+.main-center-title {
+    text-align: center;
     font-size: 2.5rem;
     padding: 0.5rem;
     margin: 0.5rem;
 }
+
 main .main-image {
     width: auto;
     height: auto;
@@ -54,22 +62,28 @@ main .main-image {
     overflow: hidden;
     min-width: 100px;
     min-height: 100px;
+    object-fit: cover;
+    object-position: center center;
+
+    
 }
 main .main-image img {
     width: auto;
     height: 50%;
-    object-fit: cover;
-    object-position: center center;
-    max-width: 600px;
-    max-height: 800px;
     margin: 2%;
     padding: none;
     border-radius: 50px;
     margin-left: 1%;
+    max-width: 500px;
+    max-height: 600px;
 }
 main .main-image .index_image {
+    margin-inline-start: 3%;
     margin-inline-end: 3%;
 }
+
+/*FOOTER*/
+
 footer {
     width: 100%;
     height: 50px;
