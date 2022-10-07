@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0%;
+}
+html {
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(250, 242, 231);
+}
+body {
+    width: 100%;
+    height: auto;
+}
+
+/**HEADER**/
+.header {
+    background-color: bisque;
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 15% 65% 20%;
+}
+.header__img {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+    padding-left: 5%;
+}
+.header__img img {
+    border-radius: 50%;
+    width: 50px;
+}
+.header__info {
+    place-self: center;
+}
+.header__info h1 {
+    font-size: 2.5rem;
+    font-weight: 100%;
+    padding-bottom: 5px;
+}
+.header__info p {
+    font-size: 2rem;
+}
+.header__nav {
+    place-self: center;
+    width: 90%;
+}
+.header__nav .nav-center-section {
+    list-style: none;
+}
+.header__nav .nav-center-section li {
+    padding-bottom: 5px;
+}
+.header__nav .nav-center-section li a {
+    font-size: 1.6rem;
+    list-style: none;
+    text-decoration: none;
+    cursor: pointer;
+    color: rgb(94, 4, 49);
+}
+
+/**MAIN**/
+.main {
+    width: 90%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    padding: 10px;
+    gap: 10px;
+    place-self: center;
+}
+/*SIDE izq*/
+
+.main__side {
+    width: 100%;
+    font-size: 1.4rem;
+}
+.main__side img {
+    min-width: 100px;
+    height: auto;
+    object-fit: cover;
+}
+
+/*main center*/
+
+.main__center div {
+    text-align: center;
+    margin-top: 2%;
+}
+.main__center video{
+    max-width:350px;
+}
+
+.main__center-description {
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin: 20px;
+}
+
+
+/*SIDE derecho*/
+.link__side_contacto img {
+    min-width: 100px;
+    max-width: 100px;
+    object-fit: cover;
+}
+
+/**FOOTER**/
+.footer {
+    background-color: bisque;
+    display: grid;
+    width: 100%;
+    height: auto;
+    grid-template-columns: 25% 25% 50%;
+}
+.footer__portafolio {
+    place-self: center;
+}
+.footer__indice {
+    place-self: center;
+}
+.footer__copy {
+    place-self: center;
+    margin-top: 10px;
+}
+.footer .footer__portafolio li {
+    list-style: none;
+}
+.footer .footer__indice li {
+    list-style: none;
+}
+.footer .footer__portafolio li a {
+    font-size: 1.6rem;
+    text-decoration: none;
+    cursor: pointer;
+    color: rgb(94, 4, 49);
+}
+.footer .footer__indice li a {
+    font-size: 1.6rem;
+    text-decoration: none;
+    cursor: pointer;
+    color: rgb(94, 4, 49);
+}
+.footer__copy {
+    font-size: 1.6rem;
+    text-decoration: none;
+    cursor: pointer;
+    color: rgb(94, 4, 49);
+}
