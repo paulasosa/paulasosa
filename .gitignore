@@ -3,19 +3,7 @@
 *.jpg
 *.png
 icons
-index-1.html
-contacto.html
 *mp4
-old_index.html
-old_style.css
-=======
-#Ignorando las imágenes en el repositorio de github
-*.jpg
-*.png
-icons
-index-1.html
-contacto.html
-*mp4
-old_index.html
-old_style.css
+OLD
+imagenes
 >>>>>>> eaec634ae01d3bd76a10d624fa8b4424c79dc9e2
