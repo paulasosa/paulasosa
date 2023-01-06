@@ -1,11 +1,11 @@
-<<<<<<< HEAD
+ HEAD
 * {
     padding: 0%;
     margin: 0;
 }
 html {
     font-size: 62.5%;
-    background-color: rgb(136, 213, 238);
+    background-color: rgb(224, 234, 247);
 }
 a {
     list-style: none;
@@ -109,14 +109,10 @@ footer .footer-left {
 footer .footer-rigth {
     justify-self: right;
 }
-=======
+
 * {
     padding: 0%;
     margin: 0;
-}
-html {
-    font-size: 62.5%;
-    background-color: rgb(136, 213, 238);
 }
 a {
     list-style: none;
@@ -220,4 +216,3 @@ footer .footer-left {
 footer .footer-rigth {
     justify-self: right;
 }
->>>>>>> eaec634ae01d3bd76a10d624fa8b4424c79dc9e2

@@ -1,11 +1,10 @@
-<<<<<<< HEAD
 * {
     padding: 0%;
     margin: 0;
 }
 html {
     font-size: 62.5%;
-    background-color: rgb(136, 213, 238);
+    background-color: rgb(224, 234, 247);
 }
 a {
     list-style: none;
@@ -109,115 +108,3 @@ footer .footer-left {
 footer .footer-rigth {
     justify-self: right;
 }
-=======
-* {
-    padding: 0%;
-    margin: 0;
-}
-html {
-    font-size: 62.5%;
-    background-color: rgb(136, 213, 238);
-}
-a {
-    list-style: none;
-    text-decoration: none;
-    cursor: pointer;
-    color: rgb(12, 11, 12);
-    font-size: 1.8rem;
-}
-/*HEADER*/
-.nav-center-section {
-    display: flex;
-    list-style: none;
-    justify-content: center;
-    align-items: center;
-    margin-top: 2rem;
-    padding-top: 2rem;
-    text-align: center;
-}
-nav .nav-center-section a {
-    margin-right: 3rem;
-}
-
-/*MAIN*/
-
-main {
-    width: 90%;
-    height: auto;
-    text-align: center;
-    font-size: 1.8rem;
-    margin: 20px;
-    display: grid;
-}
-
-.main-center-title  {
-    text-align: center;
-    font-size: 4rem;
-    padding: 0.5rem;
-    margin: 0.5rem;
-}
-
-.main-center-title {
-    text-align: center;
-    font-size: 2.5rem;
-    padding: 0.5rem;
-    margin: 0.5rem;
-}
-
-main .main-image {
-    width: auto;
-    height: auto;
-    display: flex;
-    flex-flow: wrap;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    min-width: 100px;
-    min-height: 100px;
-    object-fit: cover;
-    object-position: center center;
-
-    
-}
-main .main-image img {
-    width: auto;
-    margin: 2%;
-    border-radius: 50px;
-    margin-left: 1%;
-    max-width: 500px;
-    max-height: 600px;
-}
-main .main-image .index_image {
-    margin-inline-start: 3%;
-    margin-inline-end: 3%;
-}
-
-/*FOOTER*/
-
-footer {
-    width: 100%;
-    height: 50px;
-    position: absolute;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    font-size: 1.4rem;
-    border-top: 0.3rem solid rgb(10, 177, 228);
-    bottom: auto;
-}
-footer ul {
-    margin: 1rem;
-    list-style: none;
-    display: flex;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    justify-self: center;
-}
-footer .footer-left {
-    justify-self: left;
-    padding-right: 5rem;
-}
-footer .footer-rigth {
-    justify-self: right;
-}
->>>>>>> eaec634ae01d3bd76a10d624fa8b4424c79dc9e2
