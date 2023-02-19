@@ -1,0 +1,192 @@
+/*Reiniciar valores*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+/*Variables*/
+
+:root {
+    --white: #dff7f4;
+    --black: #000;
+    --tittle: rgb(124, 5, 151);
+    --link: blue;
+    --Light_300: 1.6rem;
+    --tittle_text: 3rem;
+    --Regular_400: 3.5rem;
+    --Bold_700: 4rem;
+}
+
+/*Estructura principal*/
+
+body {
+    padding: 10%;
+    padding-right: 10%;
+    height: auto;
+    background-color: var(--white);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+p {
+    text-align: justify;
+    font-size: var(--Light_300);
+}
+
+a {
+    list-style: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*Sección Header*/
+
+li {
+    list-style: none;
+    border-bottom: 20px;
+    flex-direction: initial;
+    text-align: center;
+}
+
+header h1 {
+    text-align: center;
+    justify-items: center;
+    color: var(--tittle);
+    font-size: var(--Bold_700);
+    margin-top: 10px;
+}
+nav .nav-center-section {
+    width: 50%;
+    height: auto;
+    line-height: 2rem;
+    display: flex;
+    margin-left: 50%;
+    padding-left: 10%;
+    padding-top: 30px;
+    justify-items: right;
+    justify-content: right;
+}
+
+nav .nav-center-section a {
+    color: var(--link);
+    font-style: italic;
+    font-size: larger;
+    margin-right: 1rem;
+    font-size: var(--Light_300);
+}
+
+/*Sección About me*/
+
+h2 {
+    text-align: center;
+    margin-top: 3rem;
+    font-size: var(--Bold_700);
+    margin-bottom: 2rem;
+}
+
+.title-sections {
+    color: var(--tittle);
+    font-size: var(--Regular_400);
+}
+
+.sec_aboutme p {
+    text-align: justify;
+    font-size: var(--Light_300);
+}
+
+figure {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    margin: none;
+    padding: none;
+    overflow: hidden;
+}
+
+img {
+    min-height: 100px;
+    width: 50%;
+    height: 50%;
+    max-width: 600px;
+    max-height: 1000px;
+    object-fit: cover;
+    object-position: center center;
+    margin-top: 3%;
+    margin-bottom: 1.2rem;
+}
+
+.sec_aboutme .foot_image {
+    text-align: center;
+    font-size: var(--Light_300);
+}
+
+.foot_image {
+    text-align: center;
+    font-size: var(--Light_300);
+    margin-bottom: 1.2rem;
+}
+
+/*Demas secciones del main*/
+
+h3 {
+    text-align: left;
+    margin-bottom: 2rem;
+    color: var(--tittle);
+    font-size: var(--tittle_text);
+}
+
+.text {
+    color: var(--black);
+    font-size: var(--Light_300);
+}
+
+/*Sección formulario*/
+
+form {
+    font-size: var(--Light_300);
+    display: grid;
+    justify-content: center;
+}
+form input {
+    font-size: var(--Light_300);
+    justify-items: center;
+    text-align: center;
+    margin: 10px;
+}
+.comment_form {
+    text-align: center;
+    font-size: var(--Light_300);
+    text-decoration: underline;
+}
+
+/*Sección Footer*/
+
+footer {
+    text-align: end;
+    padding-left: 50%;
+    padding-top: 20%;
+}
+.footer {
+    text-align: justify;
+    font-size: var(--Light_300);
+}
+
+footer a {
+    list-style: none;
+    text-decoration: none;
+    cursor: pointer;
+    color: var(--link);
+    font-style: italic;
+    font-size: larger;
+    font-size: var(--Light_300);
+}
